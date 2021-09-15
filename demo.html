@@ -1,0 +1,54 @@
+<html> 
+    <head>
+        <title>Learning JavaScript #2</title>
+    <link rel="stylesheet" href="scripts/css/sealstyle.css">
+    <img src="images/seal2.png", width="78, height="78", align=left>
+
+    <style> 
+        div {
+          width: 100px;
+          height: 100px;
+          background: rgb(0, 0, 0);
+          position: relative;
+          animation-name: example;
+          animation-duration: 1s;  
+          animation-fill-mode: forwards;
+        }
+        
+        @keyframes example {
+          from {top: -3%;}
+          to {top: -1%; background-color: rgb(235, 235, 235);}
+        }
+    </style>
+    </head>
+    <body>
+        <ul class="ulnav">
+            <li class="linav"><a href=index.html class="active">Home</a></li>
+                <li class="linav"><a href=search.html class="active">Search ></a></li>
+             <li class="linav"><a href=demo.html class="active">|Demo|</a></li></ul>
+<br><br>
+<div id="page_wrapper">
+        <table>
+            <tr>
+                <td>Result</td>
+                <td><input type="text" id="result"></td>
+            </tr>
+            <tr>
+                <td>Number (1)</td>
+                <td><input type="text"id="num1"></td>
+            </tr>
+            <tr>
+                <td>Number (2)</td>
+                <td><input type="text"id="num2"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <input type="submit" id="add" value="Add">
+                <input type="submit" id="sub" value="Subtract">
+                <input type="submit" id="mul" value="Multiply">
+                <input type="submit" id="divi" value="Divide">
+            </td>
+            </tr>
+        </table>   
+    </body>
+</html>

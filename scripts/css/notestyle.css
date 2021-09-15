@@ -1,0 +1,40 @@
+
+
+.font1{
+    font-family: Verdana;
+    color:aliceblue;
+    font-size: 16pt;
+}
+input#name{
+    border: 2px solid #626262
+    border-radius: 3px;
+    width: 350px;
+    font-size: 14pt;
+    background-color: #9ccca3;
+}
+input#job{
+    border: 2px solid #626262
+    border-radius: 3px;
+    width: 350px;
+    font-size: 14pt;
+    background-color: #bb7373;
+}
+input#email{
+    border: 2px solid #235342;
+    border-radius: 3px;
+    width: 350px;
+    font-size: 14pt;
+    background-color: #72a2b8;
+}
+table{
+    border:2px solid #b9b9b9;
+    border-radius: 5px;
+}
+#header{
+    background-color: rgb(125, 134, 143);
+    border-radius: 6px;
+}
+#name{
+    border: 4px solid #626262;
+    border-radius: 3px;
+}
